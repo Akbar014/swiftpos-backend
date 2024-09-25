@@ -38,7 +38,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 # ]
 
 
-CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1:5500', 'http://localhost:5500','http://localhost:5501', 'https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://swiftpos-delta.vercel.app', 'http://127.0.0.1:5500', 'http://localhost:5500','http://localhost:5501', 'https://*.127.0.0.1']
 
 
 # Application definition
