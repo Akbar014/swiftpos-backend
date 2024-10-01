@@ -10,11 +10,19 @@ class CategorySerializer(serializers.ModelSerializer):
 
 
 class ProductSerializer(serializers.ModelSerializer):
-    
+    image = serializers.SerializerMethodField()
     class Meta:
         model = models.Product
-        fields = '__all__'
+        # fields = '__all__'
+        fields = [
+            'id', 'code', 'name', 'image', 'description', 
+            'product_quantity', 'unit', 'purchase_price', 
+            'sales_price', 'stock_quantity', 'date', 'user', 'category'
+        ]
         extra_kwargs = {'user': {'read_only': True}} 
 
-
+    def get_image(self, obj):
+        if obj.image:
+            return obj.image.url  # Returns the full Cloudinary URL
+        return None
 

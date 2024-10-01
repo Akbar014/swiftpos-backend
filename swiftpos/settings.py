@@ -77,6 +77,8 @@ cloudinary.config(
     api_secret='lMU4Mn_zDz56_vbP_HqNc87GkGc', 
 )
 
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',

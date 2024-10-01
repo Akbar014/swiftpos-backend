@@ -21,7 +21,7 @@ class Product(models.Model):
     code = models.CharField(max_length=20)
     name = models.CharField(max_length=100)
     # image = models.ImageField( upload_to='images/products/', blank=True, null=True)
-    image = CloudinaryField('image')
+    image = CloudinaryField('image', blank=True, null=True)
     description = models.TextField()
     product_quantity = models.IntegerField()
     unit = models.CharField( max_length=50, choices = UNIT)
