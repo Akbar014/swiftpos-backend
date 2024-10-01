@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
-
+import cloudinary
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -67,8 +67,15 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'django_rest_passwordreset',
 
+    'cloudinary',
 
 ]
+
+cloudinary.config(
+    cloud_name='dxa4o1mld', 
+    api_key='186943185362174',        
+    api_secret='lMU4Mn_zDz56_vbP_HqNc87GkGc', 
+)
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

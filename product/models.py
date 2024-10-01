@@ -1,6 +1,7 @@
 from django.db import models
 # from .constants import UNIT
 from django.contrib.auth.models import User
+from cloudinary.models import CloudinaryField
 # Create your models here.
 class Category(models.Model):
     name = models.CharField(max_length=100)
@@ -19,7 +20,8 @@ class Product(models.Model):
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
     code = models.CharField(max_length=20)
     name = models.CharField(max_length=100)
-    image = models.ImageField( upload_to='images/products/', blank=True, null=True)
+    # image = models.ImageField( upload_to='images/products/', blank=True, null=True)
+    image = CloudinaryField('image')
     description = models.TextField()
     product_quantity = models.IntegerField()
     unit = models.CharField( max_length=50, choices = UNIT)
