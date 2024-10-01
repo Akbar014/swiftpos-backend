@@ -4,6 +4,7 @@ from django.contrib.auth.models import User
 from person import models as person_models
 from product import models as product_models
 
+
 # Create your models here.
 
 class Purchase(models.Model):

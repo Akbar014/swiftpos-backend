@@ -7,6 +7,7 @@ from . import views
 router = DefaultRouter()
 router.register('purchaseHistory', views.PurchaseHistoryViewSet)
 router.register('saleHistory', views.SaleHistoryViewSet)
+router.register('statistics', views.StatisticsViewSet, basename='statistics')
 # router.register('register', views.UserRegistrationApiView, basename='register')
 
 
