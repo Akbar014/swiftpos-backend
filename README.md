@@ -28,7 +28,7 @@ Here're some of the project's best features:
 <p>1. Clone ripository</p>
 
 ```
-git clone https://github.com/Akbar014/swiftpos_frontend.git
+git clone https://github.com/Akbar014/swiftpos-backend.git
 ```
 
 <p>2. Enter into project directory</p>
