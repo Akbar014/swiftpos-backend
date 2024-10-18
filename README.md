@@ -58,9 +58,9 @@ py manage.py runserver
 "purchases": "/purchaseapp/purchases/" , <br>
 "sales": "/salesapp/sales/", <br>
 
-"purchaseHistory": "https://swiftpos-delta.vercel.app/historyapp/purchaseHistory/", <br>
-"saleHistory": "https://swiftpos-delta.vercel.app/historyapp/saleHistory/", <br>
-"statistics": "https://swiftpos-delta.vercel.app/historyapp/statistics/", <br>
+"purchaseHistory": "/historyapp/purchaseHistory/", <br>
+"saleHistory": "/historyapp/saleHistory/", <br>
+"statistics": "/historyapp/statistics/", <br>
 
   
 <h2>💻 Built with</h2>
