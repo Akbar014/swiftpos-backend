@@ -48,7 +48,6 @@ py manage.py runserver
 
 <h2>🍰 API endpoints</h2> <br>
 
-API endpoint
  "customer": "/personapp/customer/", <br>
  "supplier": "/personapp/supplier/", <br>
 "users": "/personapp/users/" <br>
