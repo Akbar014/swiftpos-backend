@@ -43,7 +43,26 @@ cd directory_name
 py manage.py runserver
 ```
 
-  
+``
+<br>
+
+<h2>🍰 API endpoints</h2> <br>
+
+API endpoint
+ "customer": "/personapp/customer/", <br>
+ "supplier": "/personapp/supplier/", <br>
+"users": "/personapp/users/" <br>
+
+"products": "/productsapp/products/", <br>
+"category": "/productsapp/category/", <br>
+
+"purchases": "/purchaseapp/purchases/" , <br>
+"sales": "/salesapp/sales/", <br>
+
+"purchaseHistory": "https://swiftpos-delta.vercel.app/historyapp/purchaseHistory/", <br>
+"saleHistory": "https://swiftpos-delta.vercel.app/historyapp/saleHistory/", <br>
+"statistics": "https://swiftpos-delta.vercel.app/historyapp/statistics/", <br>
+
   
 <h2>💻 Built with</h2>
 
