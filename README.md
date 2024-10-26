@@ -64,7 +64,7 @@ py manage.py runserver
 - `GET /personapp/supplier/`
 - `POST /personapp/supplier/<int:customer_id>`
 - `POST /personapp/supplier/<int:customer_id>`
-- 
+  
 ### Users
 - `GET /personapp/users/`
 - `POST /personapp/users/<int:customer_id>`
@@ -75,7 +75,7 @@ py manage.py runserver
 - `POST /productsapp/products/`
 - `GET /productsapp/products/<int:products_id>`
 - `PUT /productsapp/products/<int:products_id>`
-- 
+  
 ### Category
 - `GET /productsapp/category/`
 - `POST /productsapp/category/`
