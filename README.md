@@ -43,13 +43,23 @@ cd directory_name
 py manage.py runserver
 ```
 
-``
+```
 <br>
 
 <h2>🍰 API endpoints</h2> <br>
+### Autehtication
+- `POST /donate_blood/register/`
+- `POST /donate_blood/login/`
+- `POST /donate_blood/logout/`
 
- "customer": "/personapp/customer/", <br>
- "supplier": "/personapp/supplier/", <br>
+### Customer
+- `GET /personapp/customer/`
+- `POST /personapp/customer/`
+
+
+
+"customer": "/personapp/customer/", <br>
+"supplier": "/personapp/supplier/", <br>
 "users": "/personapp/users/" <br>
 
 "products": "/productsapp/products/", <br>
