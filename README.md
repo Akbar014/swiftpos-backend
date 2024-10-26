@@ -82,13 +82,13 @@ py manage.py runserver
 - `GET /productsapp/category/<int:category_id>`
 - `PUT /productsapp/category/<int:category_id>`
 
-  ### Purchase
-  - `GET /purchaseapp/purchases/`
-  - `POST /purchaseapp/purchases/`
-  - 
-  ### Sales
-  - `GET /salesapp/sales/`
-  - `POST /salesapp/sales/`
+### Purchase
+- `GET /purchaseapp/purchases/`
+- `POST /purchaseapp/purchases/`
+
+### Sales
+- `GET /salesapp/sales/`
+- `POST /salesapp/sales/`
 
 ### History
 - `GET /historyapp/purchaseHistory/`
