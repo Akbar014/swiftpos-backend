@@ -57,23 +57,44 @@ py manage.py runserver
 
 ### Customer
 - `GET /personapp/customer/`
-- `POST /personapp/customer/`
+- `POST /personapp/customer/<int:customer_id>`
+- `POST /personapp/customer/<int:customer_id>`
 
+### Supplier
+- `GET /personapp/supplier/`
+- `POST /personapp/supplier/<int:customer_id>`
+- `POST /personapp/supplier/<int:customer_id>`
+- 
+### Users
+- `GET /personapp/users/`
+- `POST /personapp/users/<int:customer_id>`
+- `POST /personapp/users/<int:customer_id>`
+  
+### Products
+- `GET /productsapp/products/`
+- `POST /productsapp/products/`
+- `GET /productsapp/products/<int:products_id>`
+- `PUT /productsapp/products/<int:products_id>`
+- 
+### Category
+- `GET /productsapp/category/`
+- `POST /productsapp/category/`
+- `GET /productsapp/category/<int:category_id>`
+- `PUT /productsapp/category/<int:category_id>`
 
+  ### Purchase
+  - `GET /purchaseapp/purchases/`
+  - `POST /purchaseapp/purchases/`
+  - 
+  ### Sales
+  - `GET /salesapp/sales/`
+  - `POST /salesapp/sales/`
 
-"customer": "/personapp/customer/", <br>
-"supplier": "/personapp/supplier/", <br>
-"users": "/personapp/users/" <br>
+### History
+- `GET /historyapp/purchaseHistory/`
+- `GET /historyapp/saleHistory/`
+- `GET /historyapp/statistics/`
 
-"products": "/productsapp/products/", <br>
-"category": "/productsapp/category/", <br>
-
-"purchases": "/purchaseapp/purchases/" , <br>
-"sales": "/salesapp/sales/", <br>
-
-"purchaseHistory": "/historyapp/purchaseHistory/", <br>
-"saleHistory": "/historyapp/saleHistory/", <br>
-"statistics": "/historyapp/statistics/", <br>
 
   
 <h2>💻 Built with</h2>
