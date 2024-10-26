@@ -46,7 +46,8 @@ py manage.py runserver
 ```
 <br>
 
-<h2>🍰 API endpoints</h2> <br>
+## 🍰 API Endpoints
+
 ### Autehtication
 - `POST /donate_blood/register/`
 - `POST /donate_blood/login/`
