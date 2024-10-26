@@ -43,46 +43,8 @@ cd directory_name
 py manage.py runserver
 ```
 
-```
+
 <br>
-
-
-## 🍰 API Endpoints
-
-### Autehtication
-- `POST /donate_blood/register/`
-- `POST /donate_blood/login/`
-- `POST /donate_blood/logout/`
-  
-### User 
-- `GET /donate_blood/users/`
-- `PUT /donate_blood/users/`
-- `GET /donate_blood/users/<int:user_id>`
-- `PUT /donate_blood/users/<int:user_id>`
-
-### Authenticated User
-- `POST accept-request/<int:donation_request_id>/`
-- `POST cancel-request/<int:donation_request_id>/`
-- `POST complete-request/<int:donation_request_id>/`
-
-### Donation Request 
-- `GET /donate_blood/donation-requests/`
-- `POST /donate_blood/donation-requests/`
-- `GET /donate_blood/donation-requests/<int:donation_request_id>`
-- `PATCH /donate_blood/donation-requests/<int:donation_request_id>`
-
-### Donation History
-- `GET /donate_blood/donation-history/`
-
-### Contact 
-- `POST /donate_blood/contactForm/`
-<br>
-<h2>💻 Built with</h2>
-
-*   django
-*   django rest framwork
-*   postgres
-*   cloudinary
 
 
 
