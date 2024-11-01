@@ -22,7 +22,7 @@ import uuid
 
 
 class PurchaseViewSet(viewsets.ModelViewSet):
-    queryset = models.Purchase.objects.all()
+    queryset = models.Purchase.objects.all().order_by('-id')
     serializer_class = serializers.PurchaseSerializer
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
 

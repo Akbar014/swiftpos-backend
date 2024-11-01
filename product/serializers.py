@@ -25,5 +25,5 @@ class ProductSerializer(serializers.ModelSerializer):
     def get_image(self, obj):
         if obj.image:
             return obj.image.url  # Returns the full Cloudinary URL
-        return None
+        return obj
 
